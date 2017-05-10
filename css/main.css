@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  background: #D4D4D4; }
+
+h1 {
+  text-align: center;
+  text-decoration: underline; }
+
+h3 {
+  margin-bottom: 0;
+  text-transform: uppercase; }
+  h3 + p {
+    margin-top: 0; }
+
+table {
+  margin: auto; }
+  table thead {
+    text-align: center; }
+    table thead td {
+      background: #242424;
+      color: #EEB86A;
+      text-transform: uppercase; }
+  table tbody td {
+    min-width: 190px;
+    height: 150px;
+    background-color: #ffffff;
+    cursor: pointer;
+    position: relative;
+    padding: 5px; }
+    table tbody td.date {
+      background: url("../images/background-calendrier.png") #ffffff center center no-repeat;
+      text-align: center;
+      font-weight: bold;
+      cursor: auto;
+      text-transform: capitalize; }
+    table tbody td.selected {
+      background: #EEB86A; }
+      table tbody td.selected .icon-demand::before {
+        background-image: url("../images/picto-demande-en-attente.png"); }
+    table tbody td.disabled {
+      cursor: not-allowed;
+      background-color: #C0C0C0; }
+    table tbody td.high-demand p:last-child::after {
+      content: '\2022';
+      font-size: 50px;
+      color: #E4372C;
+      position: absolute;
+      bottom: -10px;
+      left: 50%;
+      -webkit-transform: translateX(-50%);
+          -ms-transform: translateX(-50%);
+              transform: translateX(-50%); }
+    table tbody td.empty {
+      cursor: not-allowed;
+      background-color: transparent;
+      background-image: url("../images/background-pas-de-seances.png");
+      background-repeat: no-repeat;
+      background-position: center center; }
+      table tbody td.empty h3,
+      table tbody td.empty p {
+        display: none; }
+
+.icon {
+  padding-left: 25px;
+  position: relative; }
+  .icon::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    background-position: top left;
+    background-repeat: no-repeat; }
+  .icon.icon-time::before {
+    background-image: url("../images/picto-horaire.png"); }
+  .icon.icon-demand::before {
+    background-image: url("../images/picto-pas-de-demande.png"); }
+
+.text-center {
+  text-align: center; }
+
+.high-demand-text {
+  color: #E4372C;
+  font-size: 30px;
+  line-height: 0;
+  vertical-align: sub; }
+
+.ng-hide {
+  display: none; }
+
+.loader {
+  border: 16px solid #f3f3f3;
+  border-top: 16px solid #555555;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+          animation: spin 2s linear infinite;
+  position: absolute;
+  left: calc(50% - 60px);
+  top: calc(50% - 60px); }
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
+
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
+
+/*# sourceMappingURL=main.css.map */

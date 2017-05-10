@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr" ng-app="resaTickets">
+
+<head>
+  <meta charset="UTF-8">
+  <title>AngularJS - Système de réservation de tickets pour le festival de Cannes</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body ng-controller="ticketController as ctrl">
+  <div class="loader" ng-show="!ctrl.loading"></div>
+  <div class="container ng-hide" ng-show="ctrl.loading">
+    <h1>Système de réservation de tickets pour le festival de Cannes</h1>
+    <p class="text-center">Crédits restant : {{ ctrl.creditCount }} // Forte demande : <span class="high-demand-text">•</span> (coût : 2 crédits)</p>
+
+    <table>
+      <thead>
+        <tr>
+          <td colspan="1">#</td>
+          <td colspan="1">Debussy</td>
+          <td colspan="7">Lumière</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr ng-repeat="date in ctrl.dates">
+          <td class="date">{{ date.date | date: 'EEEE d' }}</td>
+          <td ng-repeat="film in ctrl.debussy" ng-if="film.date == date.date" ng-class="whatClasses(film)" ng-click="clickFilm($event, film)">
+            <h3>{{ film.title }}</h3>
+            <p>{{ film.director }}</p>
+            <p><span class="icon icon-time">{{ film.startAt }}</span> <span class="icon icon-demand">{{ film.text }}</span></p>
+          </td>
+          <td ng-repeat="film in ctrl.lumiere | orderBy : 'position'" ng-if="film.date == date.date" ng-class="whatClasses(film)" ng-click="clickFilm($event, film)">
+            <h3>{{ film.title }}</h3>
+            <p>{{ film.director }}</p>
+            <p><span class="icon icon-time">{{ film.startAt }}</span> <span class="icon icon-demand">{{ film.text }}</span></p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+  <script src="translate/angular-locale_fr-fr.js"></script>
+  <script src="js/app.js"></script>
+</body>
+
+</html>

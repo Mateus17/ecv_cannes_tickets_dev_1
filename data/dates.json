@@ -1,0 +1,450 @@
+[
+  {
+    "dates":[
+      {
+        "date":"2016-05-14",
+        "films":[
+          {
+            "title":"Agassi",
+            "director":"Chan-Wook Park",
+            "duration":"02:25",
+            "startAt":"08:30",
+            "theater":"Debussy",
+            "isHighDemand":false
+          },
+          {
+            "title":"Agassi",
+            "director":"Chan-Wook Park",
+            "duration":"02:25",
+            "startAt":"08:30",
+            "theater":"Lumière",
+            "isHighDemand":false
+          },
+          {
+            "title":"Agassi",
+            "director":"Chan-Wook Park",
+            "duration":"02:25",
+            "startAt":"22:00",
+            "theater":"Lumière",
+            "isHighDemand":false
+          },
+          {
+            "title":"The BFG",
+            "director":"Steven Spielberg",
+            "duration":"01:55",
+            "startAt":"11:45",
+            "theater":"Lumière",
+            "isHighDemand":false
+          },
+          {
+            "title":"The BFG",
+            "director":"Steven Spielberg",
+            "duration":"01:55",
+            "startAt":"19:00",
+            "theater":"Lumière",
+            "isHighDemand":true
+          },
+          {
+            "empty":true,
+            "theater":"Lumière",
+            "startAt":"23:59"
+          },
+          {
+            "empty":true,
+            "theater":"Lumière",
+            "startAt":"15:30"
+          },
+          {
+            "empty":true,
+            "theater":"Lumière",
+            "startAt":"13:45"
+          }
+        ]
+      },
+      {
+        "date":"2016-05-15",
+        "films":[
+          {
+            "title":"Mal de pierres",
+            "director":"Nicole Garcia",
+            "duration":"02:00",
+            "startAt":"08:30",
+            "theater":"Debussy",
+            "isHighDemand":false
+          },
+          {
+            "title":"Mal de pierres",
+            "director":"Nicole Garcia",
+            "duration":"02:00",
+            "startAt":"08:30",
+            "theater":"Lumière",
+            "isHighDemand":false
+          },
+          {
+            "title":"Mal de pierres",
+            "director":"Nicole Garcia",
+            "duration":"02:00",
+            "startAt":"11:30",
+            "theater":"Lumière",
+            "isHighDemand":false
+          },
+          {
+            "title":"Mal de pierres",
+            "director":"Nicole Garcia",
+            "duration":"02:00",
+            "startAt":"19:30",
+            "theater":"Lumière",
+            "isHighDemand":true
+          },
+          {
+            "title":"American Honey",
+            "director":"Andrea Arnold",
+            "duration":"02:42",
+            "startAt":"15:30",
+            "theater":"Lumière",
+            "isHighDemand":true
+          },
+          {
+            "title":"The nice guys",
+            "director":"Shane Black",
+            "duration":"01:56",
+            "startAt":"22:30",
+            "theater":"Lumière",
+            "isHighDemand":false
+          },
+          {
+            "empty":true,
+            "theater":"Lumière",
+            "startAt":"13:45"
+          },
+          {
+            "empty":true,
+            "theater":"Lumière",
+            "startAt":"23:59"
+          }
+        ]
+      },
+      {
+        "date":"2016-05-16",
+        "films":[
+          {
+            "title":"Loving",
+            "director":"Jeff Nichols",
+            "duration":"02:03",
+            "startAt":"08:30",
+            "theater":"Debussy",
+            "isHighDemand":false
+          },
+          {
+            "title":"Loving",
+            "director":"Jeff Nichols",
+            "duration":"02:03",
+            "startAt":"08:30",
+            "theater":"Lumière",
+            "isHighDemand":false
+          },
+          {
+            "title":"Loving",
+            "director":"Jeff Nichols",
+            "duration":"02:03",
+            "startAt":"11:30",
+            "theater":"Lumière",
+            "isHighDemand":false
+          },
+          {
+            "title":"Loving",
+            "director":"Jeff Nichols",
+            "duration":"02:03",
+            "startAt":"19:00",
+            "theater":"Lumière",
+            "isHighDemand":true
+          },
+          {
+            "title":"Paterson",
+            "director":"Jim Jarmush",
+            "duration":"01:53",
+            "startAt":"16:00",
+            "theater":"Lumière",
+            "isHighDemand":true
+          },
+          {
+            "title":"Hands of stone",
+            "director":"Jonathan Jakubowicz",
+            "duration":"01:56",
+            "startAt":"22:00",
+            "theater":"Lumière",
+            "isHighDemand":false
+          },
+          {
+            "empty":true,
+            "theater":"Lumière",
+            "startAt":"13:45"
+          },
+          {
+            "empty":true,
+            "theater":"Lumière",
+            "startAt":"23:59"
+          }
+        ]
+      },
+      {
+        "date":"2016-05-17",
+        "films":[
+          {
+            "title":"Julieta",
+            "director":"Pedreo Almodóvar",
+            "duration":"01:36",
+            "startAt":"08:30",
+            "theater":"Debussy",
+            "isHighDemand":false
+          },
+          {
+            "title":"Julieta",
+            "director":"Pedreo Almodóvar",
+            "duration":"01:36",
+            "startAt":"08:30",
+            "theater":"Lumière",
+            "isHighDemand":false
+          },
+          {
+            "title":"Julieta",
+            "director":"Pedreo Almodóvar",
+            "duration":"01:36",
+            "startAt":"13:30",
+            "theater":"Lumière",
+            "isHighDemand":false
+          },
+          {
+            "title":"Julieta",
+            "director":"Pedreo Almodóvar",
+            "duration":"01:36",
+            "startAt":"19:30",
+            "theater":"Lumière",
+            "isHighDemand":true
+          },
+          {
+            "title":"Personal Assistant",
+            "director":"Olivier Assayas",
+            "duration":"01:45",
+            "startAt":"11:00",
+            "theater":"Lumière",
+            "isHighDemand":false
+          },
+          {
+            "title":"Personal Assistant",
+            "director":"Olivier Assayas",
+            "duration":"01:45",
+            "startAt":"22:00",
+            "theater":"Lumière",
+            "isHighDemand":false
+          },
+          {
+            "title":"Aquarius",
+            "director":"Kleben Mendonça Filho",
+            "duration":"02:20",
+            "startAt":"16:00",
+            "theater":"Lumière",
+            "isHighDemand":false
+          },
+          {
+            "empty":true,
+            "theater":"Lumière",
+            "startAt":"23:59"
+          }
+        ]
+      },
+      {
+        "date":"2016-05-18",
+        "films":[
+          {
+            "title":"La fille inconnue",
+            "director":"Jean-Pierre et Luc Dardenne",
+            "duration":"01:53",
+            "startAt":"08:30",
+            "theater":"Debussy",
+            "isHighDemand":false
+          },
+          {
+            "title":"La fille inconnue",
+            "director":"Jean-Pierre et Luc Dardenne",
+            "duration":"01:53",
+            "startAt":"08:30",
+            "theater":"Lumière",
+            "isHighDemand":false
+          },
+          {
+            "title":"La fille inconnue",
+            "director":"Jean-Pierre et Luc Dardenne",
+            "duration":"01:53",
+            "startAt":"19:00",
+            "theater":"Lumière",
+            "isHighDemand":true
+          },
+          {
+            "title":"Goksung",
+            "director":"Hong Jin Na",
+            "duration":"02:36",
+            "startAt":"11:30",
+            "theater":"Lumière",
+            "isHighDemand":false
+          },
+          {
+            "title":"Goksung",
+            "director":"Hong Jin Na",
+            "duration":"02:36",
+            "startAt":"22:00",
+            "theater":"Lumière",
+            "isHighDemand":false
+          },
+          {
+            "title":"Ma' Rosa",
+            "director":"Brillante Mendoza",
+            "duration":"01:50",
+            "startAt":"16:00",
+            "theater":"Lumière",
+            "isHighDemand":false
+          },
+          {
+            "empty":true,
+            "theater":"Lumière",
+            "startAt":"13:45"
+          },
+          {
+            "empty":true,
+            "theater":"Lumière",
+            "startAt":"23:59"
+          }
+        ]
+      },
+      {
+        "date":"2016-05-19",
+        "films":[
+          {
+            "title":"Bacalauréat",
+            "director":"Cristian Mungiu",
+            "duration":"02:07",
+            "startAt":"08:30",
+            "theater":"Debussy",
+            "isHighDemand":false
+          },
+          {
+            "title":"Bacalauréat",
+            "director":"Cristian Mungiu",
+            "duration":"02:07",
+            "startAt":"08:30",
+            "theater":"Lumière",
+            "isHighDemand":false
+          },
+          {
+            "title":"Bacalauréat",
+            "director":"Cristian Mungiu",
+            "duration":"02:07",
+            "startAt":"14:30",
+            "theater":"Lumière",
+            "isHighDemand":false
+          },
+          {
+            "title":"Bacalauréat",
+            "director":"Cristian Mungiu",
+            "duration":"02:07",
+            "startAt":"18:30",
+            "theater":"Lumière",
+            "isHighDemand":true
+          },
+          {
+            "title":"Juste la fin du monde",
+            "director":"Xavier Dolan",
+            "duration":"01:35",
+            "startAt":"11:00",
+            "theater":"Lumière",
+            "isHighDemand":false
+          },
+          {
+            "title":"Juste la fin du monde",
+            "director":"Xavier Dolan",
+            "duration":"01:35",
+            "startAt":"22:00",
+            "theater":"Lumière",
+            "isHighDemand":true
+          },
+          {
+            "title":"Gimme danger",
+            "director":"Jim Jarmush",
+            "duration":"01:48",
+            "startAt":"23:59",
+            "theater":"Lumière",
+            "isHighDemand":false
+          },
+          {
+            "empty":true,
+            "theater":"Lumière",
+            "startAt":"15:15"
+          }
+        ]
+      },
+      {
+        "date":"2016-05-20",
+        "films":[
+          {
+            "title":"The last face",
+            "director":"Sean Penn",
+            "duration":"02:11",
+            "startAt":"08:30",
+            "theater":"Debussy",
+            "isHighDemand":false
+          },
+          {
+            "title":"The last face",
+            "director":"Sean Penn",
+            "duration":"02:11",
+            "startAt":"08:30",
+            "theater":"Lumière",
+            "isHighDemand":false
+          },
+          {
+            "title":"The last face",
+            "director":"Sean Penn",
+            "duration":"02:11",
+            "startAt":"15:30",
+            "theater":"Lumière",
+            "isHighDemand":false
+          },
+          {
+            "title":"The last face",
+            "director":"Sean Penn",
+            "duration":"02:11",
+            "startAt":"19:00",
+            "theater":"Lumière",
+            "isHighDemand":true
+          },
+          {
+            "title":"The neon demon",
+            "director":"Nicolas Winding Refn",
+            "duration":"01:57",
+            "startAt":"12:00",
+            "theater":"Lumière",
+            "isHighDemand":false
+          },
+          {
+            "title":"The neon demon",
+            "director":"Nicolas Winding Refn",
+            "duration":"01:57",
+            "startAt":"22:30",
+            "theater":"Lumière",
+            "isHighDemand":true
+          },
+          {
+            "empty":true,
+            "theater":"Lumière",
+            "startAt":"14:00"
+          },
+          {
+            "empty":true,
+            "theater":"Lumière",
+            "startAt":"23:59"
+          }
+        ]
+      }
+    ]
+  }
+]
